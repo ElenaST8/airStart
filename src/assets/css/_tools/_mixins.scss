@@ -1,0 +1,23 @@
+@mixin heading($font, $size, $text: $prime-1, $padding: 15px) {
+  font-family: $font;
+  font-size: $size;
+  color: $text;
+  padding: $padding;
+}
+
+.hover {
+  color: #fff;
+  background-color: $prime-1;
+  cursor: pointer;
+}
+
+@mixin buttons($font, $background) {
+  font-family: $font;
+  background-color: $background;
+}
+
+.hoverbuttons {
+  opacity: 0.35;
+  color: $white;
+  border: none;
+}

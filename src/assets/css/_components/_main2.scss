@@ -1,0 +1,98 @@
+.part_2 {
+  background-image: url(../../../assets/img/bg-main1.png);
+  height: 551px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 60px;
+}
+
+.block_2 {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.advantages {
+  text-align: center;
+  padding-top: 33px;
+}
+
+.advantages p {
+  @include heading($font-regular, 14px, $white, 0);
+  margin-bottom: 12px;
+}
+
+h3 {
+  @include heading($base_font, 30px, $white, 0);
+  margin-bottom: 38px;
+}
+
+h6 {
+  @include heading($font-regular, 18px, $pr-4-dark-3);
+  padding: 15px 25px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.services div {
+  background-color: $white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.services p {
+  @include heading($font-regular, 14px, $pr-4-dark-1, 0);
+  padding: 0 50px 30px 50px;
+  margin-bottom: 0;
+}
+
+.sprite {
+  display: block;
+  background-image: url(../../../assets/img/sprite-1.png);
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+
+.services div:nth-child(1) i {
+  width: 86px;
+  height: 89px;
+  background-position: -5px -5px;
+}
+
+.services div:nth-child(2) i {
+  width: 86px;
+  height: 88px;
+  background-position: -5px -104px;
+}
+
+.services div:nth-child(3) i {
+  width: 86px;
+  height: 88px;
+  background-position: -5px -202px;
+}
+
+.service-button {
+  text-align: center;
+}
+
+.block_2 .btn-primary {
+  @include heading($base_font, 14px, $white, 14px);
+  background-color: $pr-1-dark-1;
+  border: none;
+  width: 280px;
+  margin-top: 30px;
+}
+
+.block_2 .btn-primary:hover {
+  color: $prime-1;
+  background-color: $pr-1-light-3;
+  cursor: pointer;
+}

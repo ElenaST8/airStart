@@ -1,0 +1,93 @@
+// .part_3 {
+//   background-image: url(../../../assets/img/bg-arrows.png);
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-position-x: center;
+//   background-position-y: 50px;
+// }
+
+.arrows {
+  position: absolute;
+  top: 1805px;
+  right: -15%;
+  height: 566px;
+}
+
+.block_3 {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.steps {
+  text-align: center;
+  padding-top: 75px;
+}
+
+.steps p {
+  @include heading($font-regular, 15px, $pr-1-dark-2, 0);
+  margin-bottom: 26px;
+}
+
+.steps h3 {
+  @include heading($base_font, 33px, $pr-3-dark-3, 0);
+  margin-bottom: 100px;
+}
+
+.steps-blocks h6 {
+  @include heading($font-semibold, 17px, $pr-4-dark-1);
+  text-transform: uppercase;
+  padding: 15px 25px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.steps-blocks {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 80px;
+}
+
+.steps-blocks div {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.steps-blocks p {
+  @include heading($font-regular, 13px, $pr-4-dark-1, 0);
+  padding: 0 44px 30px 44px;
+  margin-bottom: 0;
+}
+
+.sprite-2 {
+  display: block;
+  background-image: url(../../../assets/img/sprite-2.png);
+  margin-bottom: 10px;
+}
+
+.steps-blocks div:nth-child(1) i {
+  width: 61px;
+  height: 61px;
+  background-position: -5px -5px;
+}
+
+.steps-blocks div:nth-child(2) i {
+  width: 51px;
+  height: 64px;
+  background-position: -5px -148px;
+}
+
+.steps-blocks div:nth-child(3) i {
+  width: 60px;
+  height: 60px;
+  background-position: -5px -222px;
+}
+
+.steps-blocks div:nth-child(4) i {
+  width: 62px;
+  height: 62px;
+  background-position: -5px -76px;
+}

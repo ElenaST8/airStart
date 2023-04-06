@@ -1,0 +1,185 @@
+.part_4 {
+  height: 555px;
+  background-image: url(../../../assets/img/bg-cloud.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  margin-bottom: 150px;
+}
+
+.discount-block {
+  text-align: center;
+}
+
+.discount-block .discounts {
+  @include heading($font-regular, 15px, $white, 0);
+  padding-top: 35px;
+  margin-bottom: 0;
+}
+
+.discount-block h3 {
+  @include heading($base_font, 32px, $white, 18px);
+  margin-bottom: 0;
+}
+
+.discount-block .information {
+  @include heading($base_font, 17px, $white, 0);
+}
+
+.block_4 {
+  width: 945px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 223px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.sale-paragraph {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.huge_discount {
+  background-color: $prime-1;
+  padding: 23px;
+  position: relative;
+}
+
+.huge_discount-block {
+  display: flex;
+  flex-direction: column;
+  border: 2px dashed $prime-4;
+  border-radius: 30px;
+}
+
+.percentage_discounts {
+  background-color: $white;
+  padding: 30px 25px;
+  filter: drop-shadow(4px 4px 7px $pr-4-light-1);
+}
+
+.sale-paragraph div {
+  @include heading($font-regular, 14px, $pr-4-dark-1, 0);
+  padding: 20px 65px;
+  text-align: center;
+}
+
+.sale-paragraph p {
+  margin-bottom: 0;
+}
+
+.sale-paragraph div:nth-child(1) {
+  border-right: 1px solid $pr-4-light-3;
+  border-bottom: 1px solid $pr-4-light-3;
+}
+
+.sale-paragraph div:nth-child(4) {
+  border-left: 1px solid $pr-4-light-3;
+  border-top: 1px solid $pr-4-light-3;
+}
+
+.sale-paragraph .sale {
+  @include heading($font-poppins, 30px, $prime-2, 0);
+  text-transform: uppercase;
+  line-height: 37px;
+  margin-bottom: 25px;
+}
+
+.sale-paragraph .pages {
+  @include heading($font-semibold, 17px, $prime-1, 0);
+  line-height: 33px;
+}
+
+.tryourservece {
+  @include heading($font-semibold, 22px, $white, 0);
+  text-transform: uppercase;
+  text-align: center;
+  padding: 27px 21px 21px 30px;
+  margin-bottom: 0;
+}
+
+.saleOFF {
+  border: 2px dashed $white;
+  border-radius: 14px;
+  margin: auto 33px;
+  background-color: $pr-1-dark-1;
+}
+
+.saleOFF p:last-child {
+  @include heading($font-logo-min, 14px, $white, 0);
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.usediscount15 {
+  @include heading($font-logo-min, 14px, $white, 20px);
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.saleOFF .get {
+  @include heading($font-poppins, 24px, $white, 0);
+  padding-left: 30px;
+  padding-top: 30px;
+  margin-bottom: 0;
+}
+
+.saleOffweek {
+  @include heading($font-poppins, 41px, $prime-3, 0);
+  line-height: 39px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.img-stars {
+  position: absolute;
+  top: 353px;
+  right: 21%;
+  z-index: 1;
+  height: 279px;
+}
+
+.reviews-part {
+  width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.testimonials {
+  @include heading($font-regular, 15px, $pr-1-dark-1, 0);
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+
+.last-bg-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reviews_img {
+  width: 585px;
+}
+
+.reviews h3 {
+  @include heading($base_font, 33px, $pr-4-dark-3, 25px);
+  margin-bottom: 12px;
+}
+
+.answer {
+  @include heading($font-light, 14px, $pr-4-light-1, 6px);
+}
+
+.lornaGrey {
+  @include heading($font-semibold, 17px, $pr-1-dark-1, 8px);
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.data {
+  @include heading($font-light, 13px, $pr-4-light-2, 0);
+  margin-bottom: 55px;
+}
