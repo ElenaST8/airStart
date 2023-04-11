@@ -33,7 +33,11 @@
   margin-bottom: 100px;
 }
 
-.steps-blocks h6 {
+// .blockSp {
+//   display: flex;
+// }
+
+.blockSp h6 {
   @include heading($font-semibold, 17px, $pr-4-dark-1);
   text-transform: uppercase;
   padding: 15px 25px;
@@ -49,14 +53,14 @@
   margin-bottom: 80px;
 }
 
-.steps-blocks div {
+.center-sprite {
   text-align: center;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-.steps-blocks p {
+.blockSp p {
   @include heading($font-regular, 13px, $pr-4-dark-1, 0);
   padding: 0 44px 30px 44px;
   margin-bottom: 0;
@@ -68,25 +72,25 @@
   margin-bottom: 10px;
 }
 
-.steps-blocks div:nth-child(1) i {
+.steps-blocks .blockSp:nth-child(1) i {
   width: 61px;
   height: 61px;
   background-position: -5px -5px;
 }
 
-.steps-blocks div:nth-child(2) i {
+.steps-blocks .blockSp:nth-child(2) i {
   width: 51px;
   height: 64px;
   background-position: -5px -148px;
 }
 
-.steps-blocks div:nth-child(3) i {
+.steps-blocks .blockSp:nth-child(3) i {
   width: 60px;
   height: 60px;
   background-position: -5px -222px;
 }
 
-.steps-blocks div:nth-child(4) i {
+.steps-blocks .blockSp:nth-child(4) i {
   width: 62px;
   height: 62px;
   background-position: -5px -76px;

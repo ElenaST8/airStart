@@ -1,8 +1,8 @@
 .part_2 {
   background-image: url(../../../assets/img/bg-main1.png);
-  height: 551px;
-  background-repeat: no-repeat;
-  background-size: contain;
+  // height: 551px;
+  // background-repeat: no-repeat;
+  background-size: cover;
   margin-top: 60px;
 }
 
@@ -88,7 +88,8 @@ h6 {
   background-color: $pr-1-dark-1;
   border: none;
   width: 280px;
-  margin-top: 30px;
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 
 .block_2 .btn-primary:hover {
